@@ -2,14 +2,15 @@ public class Card {
     private String rank;
     private String suit;
 
-    public String toString() {
-        return rank + " of " + suit;
+    public void setRank(String rank) {
+        rank = rank;
     }
 
-    public static void main(String[] args) {
-        Card c = new Card();
-        c.rank = "ace";
-        c.suit = "base";
-        System.out.println(c);
+    public void setSuit(String suit) {
+        suit = suit;
+    }
+
+    public String toString() {
+        return rank + " of " + suit;
     }
 }
