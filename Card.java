@@ -10,6 +10,11 @@ public class Card {
     private String rank;
     private String suit;
 
+    public Card(String rank, String suit) {
+        setRank(rank);
+        setSuit(suit);
+    }
+
     public void setRank(String rank) {
         if (!isValidRank(rank)) {
             System.out.println(rank + " is not a valid rank.");
