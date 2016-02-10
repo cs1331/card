@@ -3,11 +3,11 @@ public class Card {
     private String suit;
 
     public void setRank(String rank) {
-        rank = rank;
+        this.rank = rank;
     }
 
     public void setSuit(String suit) {
-        suit = suit;
+        this.suit = suit;
     }
 
     public String toString() {
