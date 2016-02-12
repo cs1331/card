@@ -11,4 +11,12 @@ public class Card {
     public String toString() {
         return rank + " of " + suit;
     }
+
+    public boolean equals(Object other) {
+        if (null == other) { return false; }
+        if (this == other) { return true; }
+        if (!(other instanceof Card)) { return false; }
+        Card that = (Card) other;
+        return this.rank.equals(that.rank) && this.suit.equals(that.suit);
+    }
 }
