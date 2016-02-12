@@ -1,3 +1,5 @@
+package edu.gatech.cs1331.card;
+
 public class Dealer {
 
     public static void main(String[] args) {
