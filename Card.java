@@ -1,10 +1,10 @@
 public class Card {
 
-    private final String[] VALID_RANKS =
+    public static final String[] VALID_RANKS =
         {"2", "3", "4", "5", "6", "7", "8", "9",
          "10", "jack", "queen", "king", "ace"};
 
-    private final String[] VALID_SUITS =
+    public static final String[] VALID_SUITS =
         {"diamonds", "clubs", "hearts","spades"};
 
     private String rank;
