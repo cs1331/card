@@ -1,5 +1,3 @@
-package edu.gatech.cs1331.card;
-
 public class Card {
 
     private Rank rank;
